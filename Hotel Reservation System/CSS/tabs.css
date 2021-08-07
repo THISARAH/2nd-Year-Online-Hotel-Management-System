@@ -1,0 +1,37 @@
+
+#header{
+	font-size:20;
+	font-family:
+}
+ul.menu{
+	list-style-type:none;
+	padding:none;
+	background-color:black;
+	overflow:hidden;
+	text-transform: uppercase;
+    text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+li.menu{
+	float:left;
+
+}
+li a{
+	display:block;
+	color:ff0000;
+	text-align:center;
+	padding:20px 10px;
+}
+li a:hover{
+	background-color:fff;
+}
+hr#test{
+	border:2px solid purple;
+}
+.img1{
+	justify-content:center;
+	max-width: 60%;
+	display:block;
+
+}

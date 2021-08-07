@@ -1,0 +1,34 @@
+<?php
+	$username = "root";
+	$password = "test123";
+	$hostname = "localhost";
+	
+	$dbhandle = mysql_connect($hostname ,$username ,$password) or die ("couldnt connect to database");
+	$selected = mysql_select_db("login",$dbhandle);
+	
+		if(isset($_POST['user']) && isset($_POST['pass'])){
+			$user = $_POST('user');
+			$pass = $_POST('pass');
+		}
+		mysql_close();
+?>
+
+
+
+<html lang="en" dir="ltr">
+	<head>
+	<meta charset="utf-8">
+	<title>Valid Credential</title>
+	<link rel="stylesheet" href="CSS/log.css">
+	</head>
+	
+	<body>
+	<form class="box" action="index.html" method="post">
+		<h1>Login</h1>
+		<input type="text" name="" placeholder="username">
+		<input type="password" name="" placeholder="password">
+		<input type="submit" name="" value="Login">
+	</form>
+
+</body>
+</html>

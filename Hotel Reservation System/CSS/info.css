@@ -1,0 +1,35 @@
+ 
+ .reserving-page{
+     width:2000px;
+     padding: 100px 0;
+     margin:auto:
+	  
+	  
+	  
+}
+.form{
+     position: relative:
+     z-index: 1;
+     background: yellow ;
+     max-width:1000px;
+     margin:100px 0px 0px 100px;
+     padding: 55px;
+	 text-align: center;
+}	 
+.form   input{
+     font-family:italic;
+	 outline:1;
+	 background: transparent ;
+	 width:100%;
+	 border:10;
+	 margin:10px 10px 15px;
+	 padding:25px;
+	 box-sizing: border-box;
+	 font-size:14px;
+	 }
+.form  button{
+     text-transform:uppercase;
+     outline: 0;
+     color: #FFFFFF;
+	 background: #4CAF50;
+     cursor: pointer;	 
